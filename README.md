@@ -16,14 +16,14 @@ This is a solution to the Kusys-Demo Testing Case.
 
 ### The challenge
 
-US-1. Create/Update/Delete a student,
-US-2. List all Students and see details of a selected student in a popup.
-US-3. Match a student with a selection of courses. (Constraint: a student can select a course once.)
-US-4. List all Student & Course matchings
-US-5. By adding a login mechanism and using 2 roles (Admin, User):
-o Admins: can do US-1, US-2, US-3, US-4
-o Users: can do US-2, US-3 (can match only herself/himself with the selected courses),
-US-4 (can see only her/his matchings)
+- US-1. Create/Update/Delete a student,
+- US-2. List all Students and see details of a selected student in a popup.
+- US-3. Match a student with a selection of courses. (Constraint: a student can select a course once.)
+- US-4. List all Student & Course matchings
+- US-5. By adding a login mechanism and using 2 roles (Admin, User):
+- - o Admins: can do US-1, US-2, US-3, US-4
+- - o Users: can do US-2, US-3 (can match only herself/himself with the selected courses),
+- US-4 (can see only her/his matchings)
 
 
 ### Screenshot
