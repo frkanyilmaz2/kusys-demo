@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Inter&family=Kumbh+Sans&family=Lexend+Deca&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  box-sizing: border-box;
+  background-color: rgb(97, 180, 248);
+}
+
+.main-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  width: 100vw;
+  height: 100vh;
+}
+.signout button{
+  padding: 0.25em 0.75em;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: rgba(173, 13, 13,0.5);
+  color: #f2f2f2;
+}
+.signout button:hover{
+  background-color: rgba(173, 13, 13,0.8);
+}
+
+.section-buttons{
+  padding: 0 0.5em;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(13, 139, 241,0.3);
+  border-radius: 25px;
+  color: #f2f2f2;
+}
+
+.section-buttons:hover{
+  background-color: rgb(13, 139, 241,0.9);
+}
+.section-buttons.active{
+  background-color: rgb(13, 139, 241,0.9);
+}
+
+.welcome-admin{
+  color: #f2f2f2;
+  font-size: 20px;
+  padding-top:0.75em;
+}
+button{
+  border: 0;
+}
+button:hover{
+  cursor: pointer;
+}
+
+button:focus{
+  outline: 0;
+}
+
+label{
+  font-weight: 600;
+}
+
+.new-course-button-in-studentpage{
+  background-color: rgba(0, 255, 85, 1);
+  padding:0.5em 0.5em;
+  color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.change-password{
+  background-color: rgba(173, 13, 13,0.4);
+  padding: 0.5em 0.5em;
+  border-radius: 10px;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+.change-password:hover{
+  background-color: rgba(173, 13, 13,0.6);
+}
+
+.student-page-container{
+ padding: 1em;
+ border-radius: 15px;
+}
+
+.student-page-welcome{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* ListStudents  */
+
+
+.list-items-row{
+  background-color: rgba(255, 196, 192, 0.5);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+.enrolled-students{
+  background-color: rgba(158, 38, 38, 0.5);
+  border:0;
+  font-size: 20px;
+  padding: 0.5em 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  color: #f2f2f2;
+  font-weight: 600;
+ 
+}
+
+.enrolled-students p{
+  margin: 0;
+  align-self: center;
+}
+
+.enrolled-students button{
+  background-color: rgba(0, 255, 85, 0.4);
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.enrolled-students button:hover{
+  background-color: rgba(0, 255, 85, 0.7);
+
+}
+
+.list-items-col button{
+  border: 0;
+  font-weight: 600;
+  background-color: transparent;
+  font-size: 1.5rem;
+  padding: 0.10em;
+  gap: 1em;
+}
+
+.list-items-col button:hover{
+  cursor: pointer;
+  background-color: bisque;
+
+}
+
+
+
+
+/* Font-Awesome Icons */
+.list-students-body button{
+  background-color: transparent;
+  border: 0;
+  padding: 0.5em 0.5em;
+  margin: 0 1em;
+}
+
+.fa-regular{
+  color: green;
+  font-weight: 700;
+}
+.fa-trash{
+  color:rgb(173, 13, 13);
+  border: 0;
+}
+.list-students-body button:hover{
+  background-color: rgba(255, 196, 192, 1);
+  cursor: pointer;
+}
+
+.new-course{
+  background-color: rgba(0, 255, 85, 0.5) !important;
+  font-size: 18px;
+  border-radius: 15px;
+  border: 0;
+  padding: 0 0.5em;
+  color: #000;
+  font-weight: 600;
+}
+
+.new-course:hover{
+  background-color: rgba(0, 255, 85, 0.8) !important;
+  cursor:pointer;
+}
+
+/* ListStudents ends here */
+
+
+
+/* Courses */
+
+.container-of-courses{
+  height: 100%;
+}
+
+.course-title {
+  background-color: rgba(158, 38, 38, 0.5);
+  color: #f2f2f2;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex ;
+  justify-content: flex-start ;
+  padding: 1em 0.5em  0 0.5em!important;
+  align-content: center ;
+  
+}
+.course-row{
+  background-color: rgba(230, 229, 229, 0.5);
+  font-weight: 600;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.course-row button{
+  background-color: transparent;
+  border: 0;
+  padding: 0.1em 0.5em;
+  font-size: 20px;
+  
+}
+
+.course-row button:hover{
+  background-color: rgba(255, 196, 192, 1);
+  cursor: pointer;
+}
+
+
+.title-col {
+  padding: 0 0.5em !important;
+}
+
+.course-title button{
+  border: 0;
+  gap: 0.2em;
+  padding: 0.5em;
+  border-radius:15px ;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: rgba(0, 255, 85, 0.5);
+  color: #f2f2f2;
+  font-weight: 700;
+}
+
+.course-title button:hover{
+  background-color: rgba(0, 255, 85, 0.8);
+  cursor: pointer;
+}
+
+.add-new-course{
+  background-color: #f2f2f2;
+}
+
+.add-new-course:hover{
+  cursor: pointer;
+  background-color: rgba(206, 122, 122, 0.6) !important;
+}
+
+.overflow{
+  height: 10rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 0.5em;
+  border-bottom: 1px solid black;
+}
+
+.overflow-in-course{
+  height: 15rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin:0 -1em ;
+}
+
+
+.all-courses-list label{
+  position: relative;
+}
+.fa-plus{
+  font-size: 15px;
+}
+
+/* Courses end here*/
+
+
+
+
+
+
+
+
+/* Pop Up Window */
+
+.overlay{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  z-index: 5;
+  top:0;
+  left:0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup{
+  
+  background-color: #f2f2f2;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,0.5) 0 6px  24px, rgba(0,0,0,0.8) 0 0 0 1px;
+}
+
+
+.row-form{
+  display: flex;
+  justify-content: center;
+  align-content:center ;
+}
+.row{
+  padding: 0.5em 0;
+  border-bottom: 1px solid black;
+}
+
+.col-lg-4 input{
+  width: 7.5em;
+  padding-left: 0.5em;
+}
+
+/* Pop Up Window ends here*/
+
+/* Course Modal */
+
+.save-button{
+  padding: 0.25em 1em;
+  border: 0;
+  background-color: rgba(0, 255, 85, 1) !important;
+  color: #f2f2f2;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.save-button:hover{
+  background-color: rgba(0, 255, 85, 0.7) !important;
+  cursor: pointer;
+}
+
+.close-button{
+  border: 0;
+  font-size: 24px;
+  color: red;
+}
+
+.close-button:hover{
+  cursor: pointer;
+}
+
+/* Course Modal ends here*/
+
+/* Auth */
+
+.auth-container{
+  display: flex ;
+  justify-content: center ;
+  margin: 50px;
+}
+.auth-container-box{
+  width: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(0,0,0,0.05) 0 6px 24px, rgba(0,0,0,0.08) 0 0 0 1px;
+}
+
+.auth-container-box form{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px;
+}
+
+.auth-container-box input{
+  padding: 0.25em;
+}
+
+.auth-options{
+  display: flex;
+}
+.auth-options button{
+  width: 50%;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+  color: rgb(35,38,47)
+}
+
+
+.auth-container-bottom input{
+  width: 50%;
+}
+
+/* Auth ends here */
+
+/* Spinner for loading */
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner-container{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+.loading-spinner {
+  position: absolute;
+ 
+  width: 50px;
+  height: 50px;
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #383636; /* Black */
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}
+/* Spinner for loading  ends here*/
+
+/* to get rid of the spinner and stepper in input */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+@media screen and (max-width:1000px) {
+  .container-of-courses{
+    height: 35em !important;
+  }
+  .student-page-container{
+    width: 20em !important;
+    margin-top: 5em;
+    height: auto !important;
+  }
+}

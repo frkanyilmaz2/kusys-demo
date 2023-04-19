@@ -1,0 +1,25 @@
+{
+  "name": "kusys-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "if-env TYPE=server && (cd server && npm install) || (cd client && npm install)",
+    "server": "node ./server/server.js",
+    "client": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frkanyilmaz2/Kusys-Demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frkanyilmaz2/Kusys-Demo/issues"
+  },
+  "homepage": "https://github.com/frkanyilmaz2/Kusys-Demo#readme",
+  "dependencies": {
+    "if-env": "^1.0.4",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react-router-dom": "^6.10.0",
+    "sort-by": "^1.2.0"
+  }
+}
